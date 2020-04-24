@@ -6,8 +6,6 @@
    :width: 2.5em
 .. |clear-filter| image:: ../img/ui-clear-filter.png
    :width: 2.5em
-.. |zoom-geolocation| image:: ../img/ui-zoom-tools-geolocation.png
-   :width: 2.5em
 .. |zoom-in-out| image:: ../img/ui-zoom-tools-in-out.png
    :width: 2.5em
 .. |zoom-extent| image:: ../img/ui-zoom-tools-extent.png
@@ -18,6 +16,8 @@
    :width: 2.2em
 .. |print| image:: ../img/ui-print.png
    :width: 2.2em
+.. |scroll| image:: ../img/ui-scroll.png
+   :width: 9.8em
 
 ================
 User Interface
@@ -116,8 +116,9 @@ In ``Layers`` mode attribute data can be accessed by
 |layer-attributes|. Attribute table is displayed in bottom part, see
 figure below.
 
-.. figure:: ../img/ui-attributes.svg
-
+.. figure:: ../img/ui-attributes.png
+   :width: 1000px
+          
    Layer attribute table.
 
 Attribute table allows filtering data based on simple queries, see
@@ -128,20 +129,19 @@ figures below.
            
    Choose operator for attribute filter.
 
-.. figure:: ../img/ui-attribute-filter-1.svg
+.. figure:: ../img/ui-attribute-filter-1.png
 
    Define filter and ``refresh`` attribute table view.
 
-.. tip:: |tip| By default, attribute table shows only few rows. The
-   number of displayed rows can be controlled in status bar by ``Rows
-   by page``. Attributes can be also filtered by map canvas ``Filter to
-   visible area``.
+.. tip:: |tip| Attribute table shows only few rows. Use the arrows |scroll|
+   to scroll through the rows. Attributes can be also 
+   filtered by map canvas ``Filter to visible area``.
 
 Every row in attribute table has *Zoom to* button |zoom-to| which
 enables zooming and centering related features in map canvas, see
 figure below.
 
-.. figure:: ../img/ui-zoom-to-feature.svg
+.. figure:: ../img/ui-zoom-to-feature.png
 
    Zoom into selected feature.
 
@@ -155,15 +155,10 @@ figure below.
 Zoom tools
 ==========
 
-Zoom tools enable controlling map view. Three basic zoom tools are available:
+Zoom tools enable controlling map view. Two basic zoom tools are available:
 
-* Geolocation |zoom-geolocation|
 * Zoom in/out |zoom-in-out|
 * Zoom to extent |zoom-extent|
-
-.. figure:: ../img/geolocation.svg
-
-   Geolocation in action.
 
 .. tip:: Zooming and panning is also possible by middle mouse button.
    
