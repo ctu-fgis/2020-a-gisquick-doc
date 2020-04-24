@@ -18,7 +18,10 @@
    :width: 2.2em
 .. |scroll| image:: ../img/ui-scroll.png
    :width: 9.8em
-
+.. |wms| image:: ../img/ui-wms.png
+   :width: 2.5em
+.. |map| image:: ../img/ui-map.png
+   :width: 2.5em
 ================
 User Interface
 ================
@@ -296,47 +299,26 @@ User profile page
 -----------------
 
 User page (:menuselection:`My profile` in User menu) allows managing
-published projects and uploading new ones.
+published projects and uploading new ones. In ``Projects`` tab user 
+can browse published projects including basic metadata. Project can 
+be opened by clicking on its name.
 
 .. figure:: ../img/ui-user-menu.png
-   :width: 250px
    
-   User profile menu.
-
-In ``My Projects`` tab user can browse published projects including
-basic metadata. Project can be opened by clicking on its name. 
-
-.. figure:: ../img/user-page-projects.png
-
-   List of published projects.
+   User page contains list of published projects.
+   (Projecs button highlighted in red square)
    
-.. tip:: Project data are available also via WMS service, see ``WMS
-   service link``.
+.. tip:: Project data are available also via WMS service, click WMS link button |wms|. To open project in map canvas click |map|.
 
-``Action`` allows deleting project or updating table templates (see
-:ref:`table-templates` section for details).
-
-.. figure:: ../img/user-page-projects-action.png
-
-   Project actions menu.
-
-In ``Upload Project`` tab new projects can be uploaded. Note that
+New projects can be uploaded by click an upload button. Note that
 existing project will be automatically overridden. Projects can be
 uploaded in ``zip`` or ``tag.gz`` formats.
 
 .. note:: |note| See project size limits in :ref:`Configuration
    <docker-configuration>` section.
 
-.. figure:: ../img/user-page-upload.png
+.. figure:: ../img/ui-user-page-upload.png
 
-   Upload project tab.
-
-``My account`` tab shows information about user account, see
-:doc:`../administrator-manual/user-management` section.
-
-.. figure:: ../img/user-page-account.png
-
-   Account information.
+   Upload project button highlighted in red square.
    
-Another two menu items allow showing help page (this documenation)
-and log out the user.
+.. todo:: Explain publish button.
