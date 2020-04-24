@@ -46,13 +46,6 @@ cursor (``8``).
 Content management tools
 ========================
 
-Basic project metadata - project description - are accessible by
-question mark, see figure below.
-
-.. figure:: ../img/project-info.svg
-
-   Project description.
-
 Content management widget is split into three major tabs:
 
 * **Base Layers**
@@ -66,16 +59,23 @@ Content management widget is split into three major tabs:
 
 ``Base Layers`` tab allows switching base layers in map canvas. The
 list of base layers is defined by publication process as described in
-:ref:`Project publishing <publication-base-layers>` section.
+:ref:`Project publishing <publication-base-layers>` section. Tab also
+allows to set opacity of the base layer.
 
 .. figure:: ../img/ui-base-layers.png
    :width: 250px
            
    Switching between base layers.
      
+.. figure:: ../img/ui-opacity.png
+   :width: 250px
+           
+   Setting opacity of the base layer.
+     
 ``Overlay Layers`` tab allows switching between topics (layer groups),
 see :ref:`Project publishing <publication-topics>` section, or
-controlling overlay layers one by one.
+controlling overlay layers one by one.  Tab also allows to set opacity
+of the overlay layers.
 
 .. figure:: ../img/ui-overlay-layers.png
    :width: 250px
@@ -86,6 +86,11 @@ controlling overlay layers one by one.
    :width: 250px
            
    Switching between topics.
+
+.. figure:: ../img/ui-opacity.png
+   :width: 250px
+           
+   Setting opacity of the overlay layers.
 
 In ``Layers`` mode the overlay layers can be switch on/off one by one.
 
