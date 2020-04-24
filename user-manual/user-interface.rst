@@ -178,7 +178,7 @@ Identify
 By default, features are identified in all visible layers (in the
 example below in Schools and District layers).
 
-.. figure:: ../img/identify.svg
+.. figure:: ../img/identify.png
 
    Identify schools and district layer.
 
@@ -203,9 +203,9 @@ Three measurement modes are available:
    
    Measurement tools.
 
-.. figure:: ../img/measure-location.svg
+.. figure:: ../img/measure-location.png
 
-   Location measurement example. Menu highlighted in red box.
+   Location measurement example. Menu highlighted in red ring.
 
 Location menu allows:
 
@@ -219,9 +219,9 @@ Location menu allows:
            
    Location menu.
 
-.. figure:: ../img/measure-distance.svg
+.. figure:: ../img/measure-distance.png
 
-   Distance measurement example. Menu highlighted in red box.
+   Distance measurement example. Menu highlighted in red ring.
 
 Distance menu allows:
 
@@ -234,9 +234,9 @@ Distance menu allows:
            
    Distance menu.
 
-.. figure:: ../img/measure-area.svg
+.. figure:: ../img/measure-area.png
 
-   Area measurement example. Menu highlighted in red box.
+   Area measurement example. Menu highlighted in red ring.
 
 Area menu allows:
 
@@ -285,17 +285,10 @@ User menu allows to:
 * Enter/Leave Full Screen mode
 * Display attributions
 * Show Help (this document)
-* Show Project About (see :ref:`Project publishing
-  <publication-metadata>` section)
 
-.. figure:: ../img/map-attribution.svg
+.. figure:: ../img/map-attribution.png
 
    Map attributions displayed.
-   
-.. figure:: ../img/about-window.png
-   :width: 300px
-   
-   About window showing information concerning Project and Gisquick itself.
 
 .. _user-profile-page:
 
