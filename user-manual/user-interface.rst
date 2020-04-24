@@ -37,7 +37,7 @@ bottom left corner) with *map scale* (``4``), :ref:`tools
 statusbar showing current scale, projection and map coordinates of the
 cursor (``8``).
 
-.. figure:: ../img/gisquick-ui.svg
+.. figure:: ../img/gisquick-ui.png
 
    Gisquick user interface description.
 
