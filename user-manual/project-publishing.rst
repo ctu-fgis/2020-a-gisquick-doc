@@ -118,7 +118,7 @@ generated files: timestamped QGIS project (``.qgs``) and metafile
 (``.meta``). These files together with project data (see ``Data
 sources``) must be transferred to the publication server.
             
-.. figure:: ../img/project-publishing-6.svg            
+.. figure:: ../img/project-publishing-6.png
 
 .. _plugin-publish-directory:
    
@@ -147,7 +147,7 @@ First of all, a new user account must be created on a publication
 server. This can be done easily by filling the registration form available
 at https://projects.gisquick.org/accounts/signup/.
 
-.. figure:: ../img/gisquick-new-account-0.svg
+.. figure:: ../img/gisquick-new-account-0.png
    :width: 60%
 
    Registration form for creating a new user account.
@@ -155,7 +155,7 @@ at https://projects.gisquick.org/accounts/signup/.
 After pressing ``CREATE ACCOUNT`` button a confirmation mail should
 be send to a given e-mail address.
 
-.. figure:: ../img/gisquick-new-account-1.svg
+.. figure:: ../img/gisquick-new-account-1.png
    :width: 75%
 
    Completion of registration process will be done by pressing
@@ -163,7 +163,7 @@ be send to a given e-mail address.
 
 Afterwards, a new user is notified about successfull singing-in.
 
-.. figure:: ../img/gisquick-new-account-2.svg
+.. figure:: ../img/gisquick-new-account-2.png
 
    A new user account has been successfully created.
 
