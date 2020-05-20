@@ -324,8 +324,50 @@ uploaded in ``zip`` or ``tag.gz`` formats.
 .. note:: |note| See project size limits in :ref:`Configuration
    <docker-configuration>` section.
 
+Another option is 'Experimental publishing'. There is publishing 
+button for this option.
+   
 .. figure:: ../img/ui-user-page-upload.png
 
    Upload project button highlighted in red square.
+   Project publishing button highlighted in green square.
+
+By clicking project name you open project settings. You can open 
+map canvas by clicking map button (1). By clicking delete button (2)
+you delete your map. By clicking on button right up (3) you can choose 
+option to logout. You can also change title (4) autenthication (5) 
+or map extent setting (6). You can change extent manually or by 
+clicking extent setting button (7) open extent menu and choose another 
+option. You can also set scales (8) and see the map in map preview (9). 
+You see set extent in map preview like blue frame.
+
+.. figure:: ../img/ui-project-setting.png
+
+   Project setting.
+ 
+.. figure:: ../img/ui-extent-setting.png
+
+   By clicking extent setting button (7) you open this menu. You can draw 
+   extent, set it for all layers or just choose one of layers.
    
-.. todo:: Explain publish button.
+You can also switch to layers setting on the left side. There is possible to 
+choose base layers that will be available in the map. You can also choose
+layers which you want to publish and layers which will be hidden. 
+
+.. figure:: ../img/ui-layers-setting.png
+
+   Layers setting.
+ 
+At least you can switch to topics setting. There you can create new topic or
+remove topic. In the left you see topics and after chosen some of them you see
+in the right features contained in it. There is possible to change contained features.
+ 
+.. figure:: ../img/ui-topics-setting.png
+
+   Topics setting. Add and remove button highlighted in red square.
+   
+For save changes you have to click on update button.
+
+.. figure:: ../img/ui-update.png
+
+   Update button highlighted in red square.
