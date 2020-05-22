@@ -325,14 +325,18 @@ button for this option.
    Upload project button highlighted in red square.
    Project publishing button highlighted in green square.
 
-By clicking project name you open project settings. You can open 
-map canvas by clicking map button (1). By clicking delete button (2)
-you delete your map. By clicking on button right up (3) you can choose 
-option to logout. You can also change title (4) autenthication (5) 
-or map extent setting (6). You can change extent manually or by 
-clicking extent setting button (7) open extent menu and choose another 
-option. You can also set scales (8) and see the map in map preview (9). 
-You see set extent in map preview like blue frame.
+Project settings is opened by clicking the project name. There are few
+options in the settings window. It is possible to load map canvas using
+map button (1). Use delete button (2) in case of removing whole project.
+you delete your map. For logging out find the top right button (3).
+Furthermore, it is possible to change the project title (4), set the
+rate of autenthication (5) or edit map extent setting (6). There are few
+possibilities how to edit map extent (7). First of all is to fill in the
+desired coordinates into the frames. Secondly, map extent can be edited
+manually by drawing a delimiting rectangle area in map. Last option is to
+use extent of one imported layer or extent of all of them.
+Setting map scales is possible in the left box (8). Executed changes are
+reflected in map preview (9).
 
 .. figure:: ../img/ui-project-setting.png
 
@@ -340,12 +344,12 @@ You see set extent in map preview like blue frame.
  
 .. figure:: ../img/ui-extent-setting.png
 
-   By clicking extent setting button (7) you open this menu. You can draw 
-   extent, set it for all layers or just choose one of layers.
-   
-You can also switch to layers setting on the left side. There is possible to 
-choose base layers that will be available in the map. You can also choose
-layers which you want to publish and layers which will be hidden. 
+   Couple of ways how to set map extent.
+
+Check the section Layers for advanced adjustment of layers. The base layer
+can be chosen in the left box (a blank base map is default). Within the right
+box it is possible to specify which layers will be published or hidden (or both
+which means that the layer will be published but turned off when the project is opened). 
 
 .. figure:: ../img/ui-layers-setting.png
 
