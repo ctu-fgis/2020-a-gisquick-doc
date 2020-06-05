@@ -38,6 +38,7 @@ User manual
 .. toctree::
    :maxdepth: 2
 
+   user-manual/introduction
    user-manual/project-publishing
    user-manual/user-interface
    user-manual/datasets
