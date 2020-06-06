@@ -215,7 +215,7 @@ Click on the blue map icon in the second column and enjoy Gisquick!
 
 Experimental publishing
 -----------------------
-Another so-called 'experimental' option how to publish project is desscribed
+Another so-called 'experimental' option how to publish project is described
 in this part. Firstly, click on ``Publish`` button which is situated next to the
 ``Upload`` button in the user's project page. It allows to publish a project
 directly from QGIS. In order to use this alternative, QGIS plugin needs to be
