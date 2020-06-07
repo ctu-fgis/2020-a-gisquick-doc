@@ -10,11 +10,11 @@ Introduction
 ============
 
 Dear user, welcome to **Gisquick** documentation!
-Gisquick (http://gisquick.org) is an open source geospatial data platform for publishing geospatial data in terms of rapid
+Gisquick (http://gisquick.org) is an open-source geospatial data platform for publishing geospatial data in terms of rapid
 sharing `QGIS <http://qgis.org>`__. Explore more to see how easy yet powerful is working in Gisquick.
 
 There are few topics you might be interested in. Firstly, if you are about to **publish** your **QGIS**
-**project online**, see chapter **1** to **4**. Please note that there are two alternative ways of publishing
+**project online**, see chapter **1** to **4**. Please notice that there are two alternative approaches of publishing
 so the choice must be made which one to follow (chapter **2** or **3**). Together with every released project,
 web map service (**WMS**) is created and can be subsequently modified.
 
@@ -31,10 +31,10 @@ It is necessary to create an account.
 
 2. **Traditional publishing**
 -----------------------------
-Whether to follow traditional way of publishnig depends only on user. Nevertheless, both ways have its
-pros & cons. Definitely, the traditional way is a good point to start, since it uses the Gisquick plugin
+Whether to follow traditional way of publishing depends only on user. Nevertheless, both ways have its
+pros & cons. Definitely, the traditional approach is a good point to start, since it uses the Gisquick plugin
 |plugin| , which has been tested for a long time.
-Anyway, please read short description of experimental way either to consider which one to follow.
+Anyway, please read short description of experimental approach either to consider which one to follow.
 
 2.1 **Preparing project**
 """""""""""""""""""""""""
@@ -47,7 +47,7 @@ How to upload prepared project created in plugin to server.
 3. **Experimental publishing**
 ------------------------------
 Experimental way of publishing is kind of innovative approach to Gisquick. New plugin |plugin2| is involved.
-In comparison to traditional way, it allows user to easily edit published projects; every change made in
+In comparison to traditional approach, it allows user to easily edit published projects; every change made in
 project in QGIS can be reflected in Gisquick by activating plugin which enables user to compare local and cloud
 project's folders, layer by layer.
 
@@ -65,7 +65,7 @@ Last few steps of publishing process are identical for both traditional and expe
 
 5. **User interface**
 ---------------------
-Each component involved in UI is decribed in this chapter.
+Each component involved in UI is described in this chapter.
 
 6. **Sample datasets**
 ----------------------
@@ -84,7 +84,7 @@ Interesting links to video tutorials, used technologies or source code.
    user-manual/releasing-publishing
    user-manual/user-interface
    user-manual/datasets
-   other
+   user-manual/other
 
 .. figure:: ./img/example.svg
 
