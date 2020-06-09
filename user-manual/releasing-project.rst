@@ -12,7 +12,7 @@ to chapter 4.
 Section called ``SETTINGS`` is displayed. There are few
 options in the settings window. It is possible to load map canvas using
 map button (1). Use delete button (2) in case of removing whole project.
-you delete your map. For logging out find the top right button (3).
+For logging out find the top right button (3).
 Furthermore, it is possible to change the project title (4), set the
 rate of autenthication (5) or edit map extent setting (6). There are few
 possibilities how to edit map extent (7). First of all is to fill in the
