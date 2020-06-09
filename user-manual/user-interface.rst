@@ -24,9 +24,12 @@
    :width: 2.5em
 .. |info| image:: ../img/ui-info.png
    :width: 2.5em
-================
+
+.. _user-interface:
+
+==============
 User interface
-================
+==============
 
 The Gisquick clients are designed with a goal to put together minimal
 set of functions for useful generic responsive web and mobile friendly

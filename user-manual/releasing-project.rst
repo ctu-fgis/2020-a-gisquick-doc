@@ -1,4 +1,4 @@
-.. _releasing_project:
+.. _releasing-project:
 
 =================
 Releasing project

@@ -7,6 +7,8 @@
 Traditional publishing
 ======================
 
+.. _preparing-project:
+
 Preparing project
 -----------------
 This section explains the process of publishing QGIS map project. It is
@@ -125,6 +127,8 @@ the newly defined directory.
 The published project together with data can be optionally zipped into an
 archive, which can be easily uploaded to the publication server, see
 ``Create project zip file for upload`` option.
+
+.. _uploading-project:
 
 Uploading project
 -----------------

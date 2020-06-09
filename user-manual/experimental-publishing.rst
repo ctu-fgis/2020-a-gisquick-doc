@@ -4,6 +4,8 @@
 Experimental publishing
 =======================
 
+.. _experimental-preparing-project:
+
 Preparing project
 -----------------
 Another so-called 'experimental' option how to publish project is described
@@ -40,6 +42,8 @@ in the middle. Next step is to prepare the project in QGIS.
    :width: 75%
 
    List of installed plugins.
+
+.. _experimental-uploading-project:
 
 Uploading project
 -----------------
