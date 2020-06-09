@@ -21,7 +21,7 @@ sys.path.append(os.path.abspath('_extensions'))
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo',
               'sphinx.ext.coverage', 'sphinx.ext.imgmath', 'sphinx.ext.ifconfig',
 	      'sphinx.ext.autosummary', 'sphinx.ext.graphviz',
-    	      'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'autoimage','numfig']
+    	      'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'autoimage','numfig','sphinxcontrib.images']
 
 todo_include_todos = True
 file_insertion_enabled = True
