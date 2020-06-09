@@ -22,7 +22,7 @@ If you wonder **what does the output look like** or **which features are involve
 Browse chapter **6** for **metadata of example datasets** which were used for documentation. If you plan to
 **operate Gisquick publication server** on your own hardware, see chapter **7**.
 
-.. figure:: ./img/example.svg
+.. thumbnail:: ./img/example.svg
 
    Gisquick in action.
 
