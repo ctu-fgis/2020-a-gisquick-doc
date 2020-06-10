@@ -73,14 +73,14 @@ the tab you can set opacity of the base layer.
 .. figure:: ../img/ui-base-layers.png
    :width: 250px
            
-   Switching between base layers.
+   Switching among base layers.
      
 .. figure:: ../img/ui-opacity.png
    :width: 250px
            
    Setting opacity of the base layer.
      
-``Overlay Layers`` tab allows switching between topics (layer groups),
+``Overlay Layers`` tab allows switching among topics (layer groups),
 see :ref:`Traditional publishing <publication-topics>` section, or
 controlling overlay layers one by one. In the tab you can set opacity 
 of the base layer.
@@ -93,7 +93,7 @@ of the base layer.
 .. figure:: ../img/ui-topics.png
    :width: 250px
            
-   Switching between topics.
+   Switching among topics.
 
 .. figure:: ../img/ui-opacity.png
    :width: 250px
