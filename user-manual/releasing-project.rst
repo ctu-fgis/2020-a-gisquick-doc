@@ -22,12 +22,13 @@ use extent of one imported layer or extent of all of them.
 Setting map scales is possible in the left box (8). Executed changes are
 reflected in map preview (9).
 
-.. figure:: ../img/ui-project-setting.png
+.. thumbnail:: ../img/ui-project-setting.png
 
    Project setting.
  
-.. figure:: ../img/ui-extent-setting.png
-
+.. thumbnail:: ../img/ui-extent-setting.png
+   :width: 200px
+   
    Couple of ways how to set map extent.
 
 Check the subsection Layers for advanced adjustment of layers. The base layer
@@ -35,19 +36,20 @@ can be chosen in the left box (a blank base map is default). Within the right
 box it is possible to specify which layers will be published or hidden (or both
 which means that the layer will be published but turned off when the project is opened). 
 
-.. figure:: ../img/ui-layers-setting.png
+.. thumbnail:: ../img/ui-layers-setting.png
 
    Layers setting.
 
 Last subsection is dedicated to topics. Creating or removing topic is enabled.
 Select a topic to see involved features which can be subsequently modified.
 
-.. figure:: ../img/ui-topics-setting.png
+.. thumbnail:: ../img/ui-topics-setting.png
 
    Subsection Topics. Add and remove button are highlighted in red square.
 
 In the very last step, hit the update button to save all realized changes and finish the experimental publishing process.
 
-.. figure:: ../img/ui-update.png
-
+.. thumbnail:: ../img/ui-update.png
+   :width: 250px
+   
    Update button is highlighted in red square.
