@@ -41,6 +41,22 @@ in the middle. Next step is to prepare the project in QGIS.
 
    List of installed plugins.
 
+Save the project before next step.
+
+.. important:: |imp| When using flat files or file-based databases as
+   data stores it is highly recommended to save all the files (data and QGIS
+   project) in the same directory or its subdirectory. QGIS project must be
+   set up to use **relative** paths (see *Project Properties*). Otherwise
+   error warning appears (see figure below).
+   
+   When using any kind of authentication (databases, web services) it
+   must be ensured that server used for publishing will have access
+   rights to such data sources.
+
+.. thumbnail:: ../img/different-folders-error.png
+
+   Error warning when different source paths are used.
+
 .. _experimental-uploading-project:
 
 Uploading project

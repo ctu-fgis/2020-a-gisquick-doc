@@ -28,7 +28,7 @@ Before publishing project using Gisquick plugin, the project must be
 saved in QGS format.
 
 .. important:: |imp| When using flat files or file-based databases as
-   data stores it is recommended to save all the files (data and QGIS
+   data stores it is strictly recommended to save all the files (data and QGIS
    project) in the same directory. QGIS project must be set up to use
    **relative** paths (see *Project Properties*).
 
