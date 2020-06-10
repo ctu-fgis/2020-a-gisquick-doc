@@ -45,7 +45,7 @@ bottom left corner) with *map scale* (``4``), :ref:`tools
 the bottom part and it shows current scale, projection and map coordinates 
 of the cursor (``8``).
 
-.. figure:: ../img/gisquick-ui.png
+.. thumbnail:: ../img/gisquick-ui.png
 
    Gisquick user interface description.
 
@@ -60,49 +60,53 @@ Content management widget is split into three major tabs:
 * **Overlay Layers**
 * **Legend**
 
-.. figure:: ../img/content-tabs.png
+.. thumbnail:: ../img/content-tabs.png
    :width: 250px
            
    Content tabs.
 
 ``Base Layers`` tab allows switching base layers in map canvas. The
 list of base layers is defined by publication process as described in
-:ref:`Traditional publishing <publication-base-layers>` section. In 
-the tab you can set opacity of the base layer.
+:ref:`Traditional publishing <publication-base-layers>` section.
 
-.. figure:: ../img/ui-base-layers.png
+.. thumbnail:: ../img/ui-base-layers.png
    :width: 250px
            
    Switching among base layers.
      
-.. figure:: ../img/ui-opacity.png
+In the tab you can set opacity of the base layer.
+	 
+.. thumbnail:: ../img/ui-opacity.png
    :width: 250px
            
    Setting opacity of the base layer.
      
 ``Overlay Layers`` tab allows switching among topics (layer groups),
 see :ref:`Traditional publishing <publication-topics>` section, or
-controlling overlay layers one by one. In the tab you can set opacity 
-of the base layer.
-
-.. figure:: ../img/ui-overlay-layers.png
-   :width: 250px
-           
-   Topics and layers switcher.
-
-.. figure:: ../img/ui-topics.png
+controlling overlay layers one by one.
+   
+.. thumbnail:: ../img/ui-topics.png
    :width: 250px
            
    Switching among topics.
 
-.. figure:: ../img/ui-opacity.png
+In the tab you can set opacity of the base layer.
+   
+.. thumbnail:: ../img/ui-opacity.png
    :width: 250px
            
    Setting opacity of the overlay layers.
 
+To switch to ``Layers`` mode use Topics and Layers switcher.
+   
+.. thumbnail:: ../img/ui-overlay-layers.png
+   :width: 250px
+           
+   Topics and Layers switcher.
+   
 In ``Layers`` mode the overlay layers can be switch on/off one by one.
 
-.. figure:: ../img/ui-map-layers.png
+.. thumbnail:: ../img/ui-map-layers.png
    :width: 250px
            
    Switch on/off overlay layers.
@@ -112,7 +116,7 @@ In ``Layers`` mode the overlay layers can be switch on/off one by one.
 
 ``Legend`` tab depicts currently selected layers in ``Layers`` tab.
 
-.. figure:: ../img/ui-legend.png
+.. thumbnail:: ../img/ui-legend.png
    :width: 250px
            
    Legend.
@@ -124,20 +128,19 @@ In ``Layers`` mode attribute data can be accessed by
 |layer-attributes|. Attribute table is displayed in bottom part, see
 figure below.
 
-.. figure:: ../img/ui-attributes.png
-   :width: 1000px
+.. thumbnail:: ../img/ui-attributes.png
           
    Layer attribute table.
 
 Attribute table allows filtering data based on simple queries, see
 figures below.
 
-.. figure:: ../img/ui-attribute-filter-0.png
-   :width: 100px
+.. thumbnail:: ../img/ui-attribute-filter-0.png
+   :width: 200px
            
    Choose operator for attribute filter.
 
-.. figure:: ../img/ui-attribute-filter-1.png
+.. thumbnail:: ../img/ui-attribute-filter-1.png
 
    Define filter and ``refresh`` attribute table view.
 
@@ -149,7 +152,7 @@ Every row in attribute table has *Zoom to* button |zoom-to| which
 enables zooming and centering related features in map canvas, see
 figure below.
 
-.. figure:: ../img/ui-zoom-to-feature.png
+.. thumbnail:: ../img/ui-zoom-to-feature.png
 
    Zoom into selected feature.
 
@@ -159,7 +162,7 @@ figure below.
 Also, every row has an *Information* button |info| which displays the
 information panel with relevant data.
 
-.. figure:: ../img/ui-info-feature.png
+.. thumbnail:: ../img/ui-info-feature.png
 
    Visualization selected data.
 
@@ -191,13 +194,13 @@ Identify
 By default, features are identified in all visible layers (in the
 example below in Schools and District layers).
 
-.. figure:: ../img/identify.png
+.. thumbnail:: ../img/identify.png
 
    Identify schools and district layer.
 
 These settings can be changed in ``Identification`` combo box.
 
-.. figure:: ../img/identification-layers.png
+.. thumbnail:: ../img/identification-layers.png
    :width: 250px
       
    Change layer priority for identification.
@@ -211,12 +214,12 @@ Three measurement modes are available:
 * Distance
 * Area
 
-.. figure:: ../img/ui-measure-tools.png
+.. thumbnail:: ../img/ui-measure-tools.png
    :width: 250px
    
    Measurement tools.
 
-.. figure:: ../img/measure-location.png
+.. thumbnail:: ../img/measure-location.png
 
    Location measurement example. Menu highlighted in red ring.
 
@@ -227,12 +230,12 @@ Location menu allows:
 By default, two systems are supported: QGIS project system and WGS-84 (EPSG:4326) 
 known as "GPS coordinates".
 
-.. figure:: ../img/ui-location-menu.png
+.. thumbnail:: ../img/ui-location-menu.png
    :width: 250px
            
    Location menu.
 
-.. figure:: ../img/measure-distance.png
+.. thumbnail:: ../img/measure-distance.png
 
    Distance measurement example. Menu highlighted in red ring.
 
@@ -243,12 +246,12 @@ Distance menu allows:
 Currently, two systems are supported: international (EU) and 
 imperial (UK, US).
 
-.. figure:: ../img/ui-distance-menu.png
+.. thumbnail:: ../img/ui-distance-menu.png
    :width: 250px
            
    Distance menu.
 
-.. figure:: ../img/measure-area.png
+.. thumbnail:: ../img/measure-area.png
 
    Area measurement example. Menu highlighted in red ring.
 
@@ -259,7 +262,7 @@ Area menu allows:
 Currently, two systems are supported: international (EU) and 
 imperial (UK, US).
 
-.. figure:: ../img/ui-area-menu.png
+.. thumbnail:: ../img/ui-area-menu.png
    :width: 250px
            
    Area menu.
@@ -301,7 +304,7 @@ User menu allows to:
 * Display attributions
 * Show Help (this document)
 
-.. figure:: ../img/map-attribution.png
+.. thumbnail:: ../img/map-attribution.png
 
    Map attributions displayed.
 
@@ -315,7 +318,7 @@ published projects and uploading new ones. In ``Projects`` tab user
 can browse published projects including basic metadata. Project can 
 be opened by clicking on its name.
 
-.. figure:: ../img/ui-user-menu.png
+.. thumbnail:: ../img/ui-user-menu.png
    
    User page contains list of published projects.
    (Projects button is highlighted in red square)
@@ -332,7 +335,7 @@ uploaded in ``zip`` or ``tag.gz`` formats.
 Another option is :doc:`Experimental publishing <experimental-publishing>`.
 There is publishing button for this option.
    
-.. figure:: ../img/ui-user-page-upload.png
+.. thumbnail:: ../img/ui-user-page-upload.png
 
    Upload project button is highlighted in red square.
    Project publishing button is highlighted in green square.

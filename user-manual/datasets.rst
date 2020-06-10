@@ -54,8 +54,7 @@ feature names, which are ranked by relative importance. Other
 attributes facilitate faster map production, such as width attributes
 assigned to river segments for creating tapers, etc.
 
-.. figure:: ../img/qgis-natural-earth.png
-   :width: 90%
+.. thumbnail:: ../img/qgis-natural-earth.png
 
    Natural Earth sample project loaded in QGIS.
 
@@ -158,8 +157,7 @@ Windows-1252. Raster data come in TIFF format.
 
 * *Extent:* ``50.3 (N), 49.9 (S), 14.8 (E), 14.2 (W)``
 
-.. figure:: ../img/qgis-prague.png
-   :width: 90%
+.. thumbnail:: ../img/qgis-prague.png
 
    Prague sample project loaded in QGIS.
 
