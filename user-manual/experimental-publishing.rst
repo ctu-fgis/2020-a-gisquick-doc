@@ -15,12 +15,12 @@ directly from QGIS. In order to use this alternative, QGIS plugin needs to be
 installed and connected. Required plugin is available to download for 64-bit OS
 (Windows, Linux, Darwin).
 
-.. figure:: ../img/publish-button/publish-button-1.png
-
+.. thumbnail:: ../img/publish-button/publish-button-1.png
+   :width: 300px
+   
    Placement of publish button.
 
-.. figure:: ../img/publish-button/publish-button-2.png
-   :width: 75%
+.. thumbnail:: ../img/publish-button/publish-button-2.png
 
    Where to download plugin for direct publishing from QGIS.
 
@@ -28,8 +28,7 @@ Once the download is complete, open QGIS and find tab ``Plugins`` and
 choose ``Manage and install plugins``. Continue to the ``Install from
 zip`` tab, set path to the downloaded zip file and hit install button.
 
-.. figure:: ../img/publish-button/publish-button-3.png
-   :width: 75%
+.. thumbnail:: ../img/publish-button/publish-button-3.png
 
    How to proceed in QGIS to install the experimental plugin.
 
@@ -38,8 +37,7 @@ in the list of installed plugins. Also, new icon appears in QGIS ribbon.
 In comparison with classic Gisquick icon, it only differs in small digit 2
 in the middle. Next step is to prepare the project in QGIS.
 
-.. figure:: ../img/publish-button/publish-button-4.png
-   :width: 75%
+.. thumbnail:: ../img/publish-button/publish-button-4.png
 
    List of installed plugins.
 
@@ -52,9 +50,9 @@ Once the project is ready, click on experimental Gisquick plugin logo.
 For the very first time, Gisquick asks user to fill in the connection
 and Gisquick login details.
 
-.. figure:: ../img/publish-button/publish-button-5.png
-   :width: 50%
-
+.. thumbnail:: ../img/publish-button/publish-button-5.png
+   :width: 300px
+   
    Example of filled connection and login details.
 
 After succesfull check-in to the Gisquick server, the project is screened
@@ -62,8 +60,7 @@ in user's experimental publish window. Notice, that the Gisquick 2
 icon stays active in QGIS until user clicks on it again and interrupts the
 connection with the server.
 
-.. figure:: ../img/publish-button/publish-button-6.png
-   :width: 75%
+.. thumbnail:: ../img/publish-button/publish-button-6.png
 
    Successful check-in to the Gisquick server and loaded sample project.
 
@@ -80,7 +77,6 @@ When the project is checked and ready, proceed to the ``Upload`` section.
 Two windows will split the screen: local project files are listed in the left,
 intended server folder appears in the right one. Click on ``UPLOAD FILES`` button.
 
-.. figure:: ../img/publish-button/publish-button-7.png
-   :width: 75%
+.. thumbnail:: ../img/publish-button/publish-button-7.png
 
    Upload section displays local files and intended server folder.
