@@ -43,7 +43,7 @@ first, sample :file:`prague.qgs` QGIS project is open in QGIS
 Desktop. Before doing any changes the project will be published as it
 is.
 
-.. figure:: ../img/qgis-prague.png
+.. thumbnail:: ../img/qgis-prague.png
 
    Prague sample project loaded in QGIS.
 
@@ -57,7 +57,7 @@ First page of the wizard allows defining basic settings for publishing:
 * **overlay layers** and
 * basic **project metadata**.
 
-.. figure:: ../img/project-publishing-0.png
+.. thumbnail:: ../img/project-publishing-0.png
 
 .. _publication-base-layers:
 
@@ -70,7 +70,7 @@ external services like OpenStreetMap, MapBox or Bing.
 
 Here also default base layer can be defined, see figure below.
 
-.. figure:: ../img/project-publishing-1.png
+.. thumbnail:: ../img/project-publishing-1.png
 
 In the second ``Layers`` sub-page is controlled, simply by
 checkboxes, which map layers will be published. It's also possible to
@@ -79,7 +79,7 @@ publish layer as hidden (ie. not shown in ``Overlay layers`` tab, see
 controls usage of QGIS Server map cache. By default, map tiles are
 cached by QGIS server and re-used when possible.
             
-.. figure:: ../img/project-publishing-2.png
+.. thumbnail:: ../img/project-publishing-2.png
 
 .. _publication-metadata:
 
@@ -87,7 +87,7 @@ The last ``Project`` sub-page allows defining basic project metadata
 like title, extent, min/max scales, info message, access constraints,
 etc.
             
-.. figure:: ../img/project-publishing-3.png                        
+.. thumbnail:: ../img/project-publishing-3.png                        
 
 .. _publication-topics:
 
@@ -100,12 +100,12 @@ added or removed by buttons located in the bottom left part of the
 dialog. Each topic has defined a short description (abstract) which is
 shown by Gisquick UI.
             
-.. figure:: ../img/project-publishing-4.png
+.. thumbnail:: ../img/project-publishing-4.png
 
 Last but one page shows a read-only **configuration summary**. It's the last
 chance to go back by ``Back`` button and change publication settings.
             
-.. figure:: ../img/project-publishing-5.png
+.. thumbnail:: ../img/project-publishing-5.png
 
 On the last page are displayed files need to be transferred to the
 Gisquick publication server. The result of publication process is two
@@ -113,7 +113,7 @@ generated files: timestamped QGIS project (``.qgs``) and metafile
 (``.meta``). These files together with project data (see ``Data
 sources``) must be transferred to the publication server.
             
-.. figure:: ../img/project-publishing-6.png
+.. thumbnail:: ../img/project-publishing-6.png
 
 .. _plugin-publish-directory:
    
@@ -139,14 +139,14 @@ publication server account. In the user menu go to ``My profile``
 Go to ``Upload project``, enter the project zip file and upload the
 file using the ``Upload`` button.
 
-.. figure:: ../img/user-page-upload.png
+.. thumbnail:: ../img/user-page-upload.png
 
    Upload project zip file.
 
 After successful upload go to ``My Projects`` and find your first
 published project.
 
-.. figure:: ../img/user-page-projects.png
+.. thumbnail:: ../img/user-page-projects.png
 
    List of user's published projects.
 
@@ -155,8 +155,6 @@ At this stage, it is possible to view the project in Gisquick by clicking
 the blue icon in the second column. However, it is recommended to finish
 the setup following the chapter number 5: Releasing project.
 
-.. figure:: ../img/gisquick-published.png
-   :align: center
-   :width: 750
+.. thumbnail:: ../img/gisquick-published.png
 
    QGIS project published with Gisquick.
