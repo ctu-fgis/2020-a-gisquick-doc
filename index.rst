@@ -68,7 +68,7 @@ Last few steps of publishing process are identical for both traditional and expe
 ----------------------------------------------------
 Each component involved in UI is described in this chapter.
 
-6. :doc:`Sample datasets <user-manual/data>`
+6. :doc:`Sample datasets <user-manual/datasets>`
 -------------------------------------------
 Basic information about datasets which were used for documentation.
 
