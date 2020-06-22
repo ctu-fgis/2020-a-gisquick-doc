@@ -1,0 +1,498 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Project publishing &mdash; Gisquick 1.0 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/logo.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="User interface" href="user-interface.html" />
+    <link rel="prev" title="Gisquick" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Gisquick
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Project publishing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#transferring-project-to-publication-server">Transferring project to publication server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#experimental-publishing">Experimental publishing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="user-interface.html">User interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datasets.html">Sample datasets</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../other.html">Other</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Gisquick</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Project publishing</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/user-manual/project-publishing.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="project-publishing">
+<span id="id1"></span><h1>Project publishing<a class="headerlink" href="#project-publishing" title="Permalink to this headline">¶</a></h1>
+<p>This section explains the process of publishing QGIS map project. It is
+assumed that <a class="reference external" href="http://qgis.org/en/site/forusers/download.html">QGIS Desktop</a> together with
+<span class="xref std std-doc">Gisquick plugin</span>
+is installed on the user machine.</p>
+<p>It is also assumed that Gisquick platform is running on the
+<strong>publication server</strong>. Such server can be run on your own hardware or
+in cloud services, see
+<span class="xref std std-doc">../administrator-manual/installation/docker</span> section for
+details.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><a class="reference internal" href="../_images/tip.png"><img alt="tip" src="../_images/tip.png" style="width: 2.5em;" /></a> Gisquick provides ready-to-use <strong>demo publication server</strong>
+available at <a class="reference external" href="https://projects.gisquick.org">https://projects.gisquick.org</a>, freely available for
+experiments and testing.</p>
+</div>
+<p>QGIS project dedicated for publishing is prepared in the standard
+way. Map layers can be combined from various data sources like flat
+files (Esri Shapefile, GML), file-based databases (SQLite,
+SpatiaLite), server-client databases (PostGIS) or OGC Web Services
+(WMS, WFS, WCS).</p>
+<p>Before publishing project using Gisquick plugin, the project must be
+saved.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><a class="reference internal" href="../_images/important.png"><img alt="imp" src="../_images/important.png" style="width: 1.5em;" /></a> When using flat files or file-based databases as
+data stores it is recommended to save all the files (data and QGIS
+project) in the same directory. QGIS project must be set up to use
+<strong>relative</strong> paths (see <em>Project Properties</em>).</p>
+<p>When using any kind of authentication (databases, web services) it
+must be ensured that server used for publishing will have access
+rights to such data sources.</p>
+</div>
+<p>Publishing QGIS project will be demonstrated on the <a class="reference internal" href="datasets.html#dataset-prague"><span class="std std-ref">Prague sample
+project</span></a> downloadable as a <a class="reference external" href="http://training.gismentors.eu/geodata/gisquick/prague.tar.gz">zip file</a>. At
+first, sample <code class="file docutils literal notranslate"><span class="pre">prague.qgs</span></code> QGIS project is open in QGIS
+Desktop. Before doing any changes the project will be published as it
+is.</p>
+<div class="figure align-center" id="id2">
+<img alt="../_images/qgis-prague.png" src="../_images/qgis-prague.png" />
+<p class="caption"><span class="caption-text">Figure 1: Prague sample project loaded in QGIS.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>The publication process is started by Gisquick QGIS plugin
+<a class="reference internal" href="../_images/logo.png"><img alt="plugin" src="../_images/logo.png" style="width: 2.5em;" /></a>. The plugin is designed as a wizard to simplify publishing
+process as much as possible.</p>
+<p>First page of the wizard allows defining basic settings for publishing:</p>
+<ul class="simple">
+<li><p><strong>base layers</strong>,</p></li>
+<li><p><strong>overlay layers</strong> and</p></li>
+<li><p>basic <strong>project metadata</strong>.</p></li>
+</ul>
+<div class="figure align-center">
+<img alt="../_images/project-publishing-0.png" src="../_images/project-publishing-0.png" />
+</div>
+<p id="publication-base-layers">By <strong>base layers</strong> are meant typically WMS layers provided by QGIS
+project. The <code class="docutils literal notranslate"><span class="pre">Base</span> <span class="pre">layer</span></code> sub-page also allows adding base layers provided by
+external services like OpenStreetMap, MapBox or Bing.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><a class="reference internal" href="../_images/important.png"><img alt="imp" src="../_images/important.png" style="width: 1.5em;" /></a> External base layers are available only when QGIS
+project is using WGS84 Pseudo Mercator projection (EPSG:3857).</p>
+</div>
+<p>Here also default base layer can be defined, see figure below.</p>
+<div class="figure align-center">
+<img alt="../_images/project-publishing-1.png" src="../_images/project-publishing-1.png" />
+</div>
+<p>In the second <code class="docutils literal notranslate"><span class="pre">Layers</span></code> sub-page is controlled, simply by
+checkboxes, which map layers will be published. It’s also possible to
+publish layer as hidden (ie. not shown in <code class="docutils literal notranslate"><span class="pre">Overlay</span> <span class="pre">layers</span></code> tab, see
+<a class="reference internal" href="user-interface.html"><span class="doc">User interface</span></a> section). Top left checkbox <code class="docutils literal notranslate"><span class="pre">Use</span> <span class="pre">cache</span></code>
+controls usage of QGIS Server map cache. By default, map tiles are
+cached by QGIS server and re-used when possible.</p>
+<div class="figure align-center">
+<img alt="../_images/project-publishing-2.png" src="../_images/project-publishing-2.png" />
+</div>
+<p id="publication-metadata">The last <code class="docutils literal notranslate"><span class="pre">Project</span></code> sub-page allows defining basic project metadata
+like title, extent, min/max scales, info message, access constraints,
+etc.</p>
+<div class="figure align-center">
+<img alt="../_images/project-publishing-3.png" src="../_images/project-publishing-3.png" />
+</div>
+<p id="publication-topics">In the following page <strong>topics</strong> can be defined. By topic it’s meant
+a group of thematically-related overlay layers. Topics can be easily
+switched in <code class="docutils literal notranslate"><span class="pre">Topics</span></code> tab of Gisquick UI, see
+<a class="reference internal" href="user-interface.html"><span class="doc">User interface</span></a> section. Layers which
+should be part of a defined topic are simply checked. Topics can be
+added or removed by buttons located in the bottom left part of the
+dialog. Each topic has defined a short description (abstract) which is
+shown by Gisquick UI.</p>
+<div class="figure align-center">
+<img alt="../_images/project-publishing-4.png" src="../_images/project-publishing-4.png" />
+</div>
+<p>Last but one page shows a read-only <strong>configuration summary</strong>. It’s the last
+chance to go back by <code class="docutils literal notranslate"><span class="pre">Back</span></code> button and change publication settings.</p>
+<div class="figure align-center">
+<img alt="../_images/project-publishing-5.png" src="../_images/project-publishing-5.png" />
+</div>
+<p>On the last page are displayed files need to be transferred to the
+Gisquick publication server. The result of publication process is two
+generated files: timestamped QGIS project (<code class="docutils literal notranslate"><span class="pre">.qgs</span></code>) and metafile
+(<code class="docutils literal notranslate"><span class="pre">.meta</span></code>). These files together with project data (see <code class="docutils literal notranslate"><span class="pre">Data</span>
+<span class="pre">sources</span></code>) must be transferred to the publication server.</p>
+<div class="figure align-center">
+<img alt="../_images/project-publishing-6.png" src="../_images/project-publishing-6.png" />
+</div>
+<p id="plugin-publish-directory">When <code class="docutils literal notranslate"><span class="pre">Publish</span></code> button is pressed, the unique project file name with
+timestamp together with its metafile is created. By default,
+timestamped files are created in the same directory as the original QGIS
+project. Optionally the destination directory can be changed by the
+<code class="docutils literal notranslate"><span class="pre">Change</span></code> button. In this case, data source files are also copied to
+the newly defined directory.</p>
+<p>The published project together with data can be optionally zipped into an
+archive, which can be easily uploaded to the publication server, see
+<code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">project</span> <span class="pre">zip</span> <span class="pre">file</span> <span class="pre">for</span> <span class="pre">upload</span></code> option.</p>
+<div class="section" id="transferring-project-to-publication-server">
+<h2>Transferring project to publication server<a class="headerlink" href="#transferring-project-to-publication-server" title="Permalink to this headline">¶</a></h2>
+<p>The publication process is finished by transferring a project to the
+publication server. The procedure will be explained on the <strong>demo
+publication server</strong> (<a class="reference external" href="https://projects.gisquick.org">https://projects.gisquick.org</a>).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a class="reference internal" href="../_images/note.png"><img alt="note" src="../_images/note.png" style="width: 1.5em;" /></a> The publication procedure can differ when running own
+Gisquick instance.</p>
+</div>
+<p>First of all, a new user account must be created on a publication
+server. This can be done easily by filling the registration form available
+at <a class="reference external" href="https://projects.gisquick.org/accounts/signup/">https://projects.gisquick.org/accounts/signup/</a>.</p>
+<div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/gisquick-new-account-0.png"><img alt="../_images/gisquick-new-account-0.png" src="../_images/gisquick-new-account-0.png" style="width: 60%;" /></a>
+<p class="caption"><span class="caption-text">Figure 9: Registration form for creating a new user account.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>After pressing <code class="docutils literal notranslate"><span class="pre">CREATE</span> <span class="pre">ACCOUNT</span></code> button a confirmation mail should
+be send to a given e-mail address.</p>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/gisquick-new-account-1.png"><img alt="../_images/gisquick-new-account-1.png" src="../_images/gisquick-new-account-1.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Figure 10: Completion of registration process will be done by pressing
+<code class="docutils literal notranslate"><span class="pre">ACTIVATE</span> <span class="pre">ACCOUNT</span></code> button.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p>Afterwards, a new user is notified about successfull singing-in.</p>
+<div class="figure align-center" id="id5">
+<img alt="../_images/gisquick-new-account-2.png" src="../_images/gisquick-new-account-2.png" />
+<p class="caption"><span class="caption-text">Figure 11: A new user account has been successfully created.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<p>After clicking on <code class="docutils literal notranslate"><span class="pre">CONTINUE</span></code> button a new user will be redirected to
+the publication server welcome screen.</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/gisquick-new-account-3.png"><img alt="../_images/gisquick-new-account-3.png" src="../_images/gisquick-new-account-3.png" style="width: 50%;" /></a>
+<p class="caption"><span class="caption-text">Figure 12: Gisquick login screen.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<p>The user can login using credentials (user name and password). After
+login Gisquick loads user’s welcome page which includes list of already
+published projects. After the very first login or in case that user hasn’t
+published any project yet, only the message appears stating how to proceed.</p>
+<div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/gisquick-new-account-4.png"><img alt="../_images/gisquick-new-account-4.png" src="../_images/gisquick-new-account-4.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Figure 13: User’s welcome page after first login.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<p>In the next step, the user can upload a prepared project zip file created
+by Gisquick plugin as described in the section above. In the user menu go
+to <code class="docutils literal notranslate"><span class="pre">My</span> <span class="pre">profile</span></code> (see <a class="reference internal" href="user-interface.html#user-profile-page"><span class="std std-ref">User profile page</span></a>
+for details). Go to <code class="docutils literal notranslate"><span class="pre">Upload</span> <span class="pre">project</span></code>, enter the project zip file and
+upload the file using the <code class="docutils literal notranslate"><span class="pre">Upload</span></code> button.</p>
+<div class="figure align-center" id="id8">
+<img alt="../_images/user-page-upload.png" src="../_images/user-page-upload.png" />
+<p class="caption"><span class="caption-text">Figure 14: Upload project zip file.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+<p>After successful upload go to <code class="docutils literal notranslate"><span class="pre">My</span> <span class="pre">Projects</span></code> and find your first
+published project.</p>
+<div class="figure align-center" id="id9">
+<img alt="../_images/user-page-projects.png" src="../_images/user-page-projects.png" />
+<p class="caption"><span class="caption-text">Figure 15: List of user’s published projects.</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+<p>Click on the blue map icon in the second column and enjoy Gisquick!</p>
+<div class="figure align-center" id="id10">
+<span id="gisquick-we-published"></span><a class="reference internal image-reference" href="../_images/gisquick-published.png"><img alt="../_images/gisquick-published.png" src="../_images/gisquick-published.png" style="width: 750px;" /></a>
+<p class="caption"><span class="caption-text">Figure 16: QGIS project published with Gisquick.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="experimental-publishing">
+<h2>Experimental publishing<a class="headerlink" href="#experimental-publishing" title="Permalink to this headline">¶</a></h2>
+<p>Another so-called ‘experimental’ option how to publish project is desscribed
+in this part. Firstly, click on <code class="docutils literal notranslate"><span class="pre">Publish</span></code> button which is situated next to the
+<code class="docutils literal notranslate"><span class="pre">Upload</span></code> button in the user’s project page. It allows to publish a project
+directly from QGIS. In order to use this alternative, QGIS plugin needs to be
+installed and connected. Required plugin is available to download for 64-bit OS
+(Windows, Linux, Darwin).</p>
+<div class="figure align-center" id="id11">
+<img alt="../_images/publish-button-1.png" src="../_images/publish-button-1.png" />
+<p class="caption"><span class="caption-text">Figure 17: Placement of publish button.</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id12">
+<a class="reference internal image-reference" href="../_images/publish-button-2.png"><img alt="../_images/publish-button-2.png" src="../_images/publish-button-2.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Figure 18: Where to download plugin for direct publishing from QGIS.</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+<p>Once the download is complete, open QGIS and find tab <code class="docutils literal notranslate"><span class="pre">Plugins</span></code> and
+choose <code class="docutils literal notranslate"><span class="pre">Manage</span> <span class="pre">and</span> <span class="pre">install</span> <span class="pre">plugins</span></code>. Continue to the <code class="docutils literal notranslate"><span class="pre">Install</span> <span class="pre">from</span>
+<span class="pre">zip</span></code> tab, set path to the downloaded zip file and hit install button.</p>
+<div class="figure align-center" id="id13">
+<a class="reference internal image-reference" href="../_images/publish-button-3.png"><img alt="../_images/publish-button-3.png" src="../_images/publish-button-3.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Figure 19: How to proceed in QGIS to install the experimental plugin.</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</div>
+<p>When the installation is finished, it is possible to check new acquisition
+in the list of installed plugins. Also, new icon appears in QGIS ribbon.
+In comparison with classic Gisquick icon, it only differs in small digit 2
+in the middle.</p>
+<div class="figure align-center" id="id14">
+<a class="reference internal image-reference" href="../_images/publish-button-4.png"><img alt="../_images/publish-button-4.png" src="../_images/publish-button-4.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Figure 20: List of installed plugins.</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+</div>
+<p>Next step is to prepare the project in QGIS. Once the project is ready,
+click on experimental Gisquick plugin logo. For the very first time,
+Gisquick asks user to fill in the connection and Gisquick login details.</p>
+<div class="figure align-center" id="id15">
+<a class="reference internal image-reference" href="../_images/publish-button-5.png"><img alt="../_images/publish-button-5.png" src="../_images/publish-button-5.png" style="width: 50%;" /></a>
+<p class="caption"><span class="caption-text">Figure 21: Example of filled connection and login details.</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+</div>
+<p>After succesfull check-in to the Gisquick server, the project is screened
+in user’s experimental publish window. Notice, that the Gisquick 2
+icon stays active in QGIS until user clicks on it again and interrupts the
+connection with the server.</p>
+<div class="figure align-center" id="id16">
+<a class="reference internal image-reference" href="../_images/publish-button-6.png"><img alt="../_images/publish-button-6.png" src="../_images/publish-button-6.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Figure 22: Successful check-in to the Gisquick server and loaded sample project.</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+</div>
+<p>First section called <code class="docutils literal notranslate"><span class="pre">CHECK-IN</span></code> consists of two tabs and represents
+an overview which is designed to easy check on loaded layers. It is not
+possible to make any changes within these tabs. Eventual corrections
+could be made back in QGIS.</p>
+<p>First tab <code class="docutils literal notranslate"><span class="pre">General</span></code> includes some fundamental information about user’s
+project, e.g. map projection, units, predefined scales or print templates.
+Second tab <code class="docutils literal notranslate"><span class="pre">Layers</span></code> contains list of layers with additional information.</p>
+<p>When the project is checked and ready, proceed to the <code class="docutils literal notranslate"><span class="pre">Upload</span></code> section.
+Two windows will split the screen: local project files are listed in the left,
+intended server folder appears in the right one. Click on <code class="docutils literal notranslate"><span class="pre">UPLOAD</span> <span class="pre">FILES</span></code> button.</p>
+<div class="figure align-center" id="id17">
+<a class="reference internal image-reference" href="../_images/publish-button-7.png"><img alt="../_images/publish-button-7.png" src="../_images/publish-button-7.png" style="width: 75%;" /></a>
+<p class="caption"><span class="caption-text">Figure 23: Upload section displays local files and intended server folder.</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+</div>
+<p>Third section is called <code class="docutils literal notranslate"><span class="pre">SETTINGS</span></code>. There are few
+options in the settings window. It is possible to load map canvas using
+map button (1). Use delete button (2) in case of removing whole project.
+you delete your map. For logging out find the top right button (3).
+Furthermore, it is possible to change the project title (4), set the
+rate of autenthication (5) or edit map extent setting (6). There are few
+possibilities how to edit map extent (7). First of all is to fill in the
+desired coordinates into the frames. Secondly, map extent can be edited
+manually by drawing a delimiting rectangle area in map. Last option is to
+use extent of one imported layer or extent of all of them.
+Setting map scales is possible in the left box (8). Executed changes are
+reflected in map preview (9).</p>
+<div class="figure align-center" id="id18">
+<img alt="../_images/ui-project-setting.png" src="../_images/ui-project-setting.png" />
+<p class="caption"><span class="caption-text">Figure 24: Project setting.</span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id19">
+<img alt="../_images/ui-extent-setting.png" src="../_images/ui-extent-setting.png" />
+<p class="caption"><span class="caption-text">Figure 25: Couple of ways how to set map extent.</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+</div>
+<p>Check the subsection Layers for advanced adjustment of layers. The base layer
+can be chosen in the left box (a blank base map is default). Within the right
+box it is possible to specify which layers will be published or hidden (or both
+which means that the layer will be published but turned off when the project is opened).</p>
+<div class="figure align-center" id="id20">
+<img alt="../_images/ui-layers-setting.png" src="../_images/ui-layers-setting.png" />
+<p class="caption"><span class="caption-text">Figure 26: Layers setting.</span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+</div>
+<p>Last subsection is dedicated to topics. Creating or removing topic is enabled.
+Select a topic to see involved features which can be subsequently modified.</p>
+<div class="figure align-center" id="id21">
+<img alt="../_images/ui-topics-setting.png" src="../_images/ui-topics-setting.png" />
+<p class="caption"><span class="caption-text">Figure 27: Subsection Topics. Add and remove button are highlighted in red square.</span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+</div>
+<p>In the very last step, hit the update button to save all realized changes and finish the experimental publishing process.</p>
+<div class="figure align-center" id="id22">
+<img alt="../_images/ui-update.png" src="../_images/ui-update.png" />
+<p class="caption"><span class="caption-text">Figure 28: Update button is highlighted in red square.</span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="user-interface.html" class="btn btn-neutral float-right" title="User interface" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral float-left" title="Gisquick" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016-2019, Gisquick team
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
