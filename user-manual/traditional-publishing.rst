@@ -25,7 +25,7 @@ SpatiaLite), server-client databases (PostGIS) or OGC Web Services
 (WMS, WFS, WCS).
 
 Before publishing project using Gisquick plugin, the project must be
-saved in QGS format.
+saved in QGS format (QGZ format is currently not supported by the plugin).
 
 .. important:: |imp| When using flat files or file-based databases as
    data stores it is strictly recommended to save all the files (data and QGIS
