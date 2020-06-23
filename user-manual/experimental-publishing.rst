@@ -33,7 +33,7 @@ zip`` tab, set path to the downloaded zip file and hit install button.
    How to proceed in QGIS to install the experimental plugin.
 
 When the installation is finished, it is possible to check new acquisition
-in the list of installed plugins. Also, new icon appears in QGIS ribbon.
+in the list of installed plugins. Also, new icon appears in QGIS toolbar.
 In comparison with classic Gisquick icon, it only differs in small digit 2
 in the middle. Next step is to prepare the project in QGIS.
 
