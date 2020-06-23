@@ -3,11 +3,13 @@
 =================
 Releasing project
 =================
-This chapter follows up on chapters 3 or 4 and represents
-last steps of project publishing. If the traditional way was followed,
-display user's project page and click on the project name (blue colour).
-If user went through the experimental way, text below continues directly
-to chapter 4.
+
+This chapter follows up on chapters :ref:`chapter-2` or
+:ref:`chapter-3` and represents last steps of project publishing. If
+the traditional way was followed, display user's project page and
+click on the project name (blue colour).  If user went through the
+experimental way, text below continues directly to chapter
+:ref:`chapter-4`.
 
 Section called ``SETTINGS`` is displayed. There are few
 options in the settings window. It is possible to load map canvas using
