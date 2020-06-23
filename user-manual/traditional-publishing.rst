@@ -20,7 +20,7 @@ name into search bar and install it.
 
 QGIS project dedicated for publishing is prepared in the standard
 way. Map layers can be combined from various data sources like flat
-files (Esri Shapefile, GML), file-based databases (SQLite,
+files (Esri Shapefile, OGC GML), file-based databases (OGC GeoPackage, SQLite,
 SpatiaLite), server-client databases (PostGIS) or OGC Web Services
 (WMS, WFS, WCS).
 
