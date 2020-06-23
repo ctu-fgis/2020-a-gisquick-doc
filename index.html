@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,6 +11,12 @@
   
 
   
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
   
     <link rel="shortcut icon" href="_static/logo.ico"/>
   
@@ -19,7 +24,9 @@
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -34,12 +41,6 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
-  <link rel="stylesheet" href="_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Creating account" href="user-manual/creating-account.html" /> 
@@ -56,7 +57,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> Gisquick
+            <a href="#" class="icon icon-home" alt="Documentation Home"> Gisquick
           
 
           
@@ -86,6 +87,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -106,6 +108,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -144,7 +147,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="#">Docs</a> &raquo;</li>
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
         
       <li>Introduction</li>
     
@@ -169,16 +172,16 @@
 <span id="id1"></span><h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <p>Dear user, welcome to <strong>Gisquick</strong> documentation!
 Gisquick (<a class="reference external" href="http://gisquick.org">http://gisquick.org</a>) is an open-source geospatial data platform for publishing geospatial data in terms of rapid
-sharing <a class="reference external" href="http://qgis.org">QGIS</a>. Explore more to see how easy yet powerful is working in Gisquick.</p>
+sharing <a class="reference external" href="http://qgis.org">QGIS</a> projects. Explore more to see how easy yet powerful is working in Gisquick.</p>
 <p>There are few topics you might be interested in. Firstly, if you are about to <strong>publish</strong> your <strong>QGIS</strong>
-<strong>project online</strong>, see chapter <strong>1</strong> to <strong>4</strong>. Please notice that there are two alternative approaches of publishing
-so the choice must be made which one to follow (chapter <strong>2</strong> or <strong>3</strong>). Together with every released project,
+<strong>project online</strong>, see chapter <a class="reference internal" href="#chapter-1"><span class="std std-ref">1. Creating account</span></a> to <a class="reference internal" href="#chapter-4"><span class="std std-ref">4. Releasing project</span></a>. Please notice that there are two alternative approaches of publishing
+so the choice must be made which one to follow (chapter <a class="reference internal" href="#chapter-2"><span class="std std-ref">2. Traditional publishing</span></a> or <a class="reference internal" href="#chapter-3"><span class="std std-ref">3. Experimental publishing</span></a>). Together with every released project,
 web map service (<strong>WMS</strong>) is created and can be subsequently modified.</p>
-<p>If you wonder <strong>what does the output look like</strong> or <strong>which features are involved</strong>, check chapter <strong>5</strong>.
-Browse chapter <strong>6</strong> for <strong>metadata of example datasets</strong> which were used for documentation. If you plan to
-<strong>operate Gisquick publication server</strong> on your own hardware, see chapter <strong>7</strong>.</p>
+<p>If you wonder <strong>what does the output look like</strong> or <strong>which features are involved</strong>, check chapter <a class="reference internal" href="#chapter-5"><span class="std std-ref">5. User interface</span></a>.
+Browse chapter <a class="reference internal" href="#chapter-6"><span class="std std-ref">6. Sample datasets</span></a> for <strong>metadata of example datasets</strong> which were used for documentation. If you plan to
+<strong>operate Gisquick publication server</strong> on your own hardware, see chapter <a class="reference internal" href="#chapter-7"><span class="std std-ref">7. Other</span></a>.</p>
 <a class=""
-               data-lightbox="group-1c141363-9d6a-49bb-8996-c07e3a9565b2"
+               data-lightbox="group-4a737cc5-ce2a-4996-94a1-d6bbaa287013"
                href="_images/example.svg"
                title="Gisquick in action."
                data-title="Gisquick in action."
@@ -188,11 +191,11 @@ Browse chapter <strong>6</strong> for <strong>metadata of example datasets</stro
                      height="auto"
                      alt=""/>
                 </a><div class="section" id="creating-account">
-<h2>1. <a class="reference internal" href="user-manual/creating-account.html"><span class="doc">Creating account</span></a><a class="headerlink" href="#creating-account" title="Permalink to this headline">¶</a></h2>
+<span id="chapter-1"></span><h2>1. <a class="reference internal" href="user-manual/creating-account.html"><span class="doc">Creating account</span></a><a class="headerlink" href="#creating-account" title="Permalink to this headline">¶</a></h2>
 <p>It is necessary to create an account.</p>
 </div>
 <div class="section" id="traditional-publishing">
-<h2>2. <a class="reference internal" href="user-manual/traditional-publishing.html"><span class="doc">Traditional publishing</span></a><a class="headerlink" href="#traditional-publishing" title="Permalink to this headline">¶</a></h2>
+<span id="chapter-2"></span><h2>2. <a class="reference internal" href="user-manual/traditional-publishing.html"><span class="doc">Traditional publishing</span></a><a class="headerlink" href="#traditional-publishing" title="Permalink to this headline">¶</a></h2>
 <p>Whether to follow traditional way of publishing depends only on user. Nevertheless, both ways have its
 pros &amp; cons. Definitely, the traditional approach is a good point to start, since it uses the Gisquick plugin
 <a class="reference internal" href="_images/logo.png"><img alt="plugin" src="_images/logo.png" style="width: 2.5em;" /></a> , which has been tested for a long time.
@@ -207,7 +210,7 @@ Anyway, please read short description of experimental approach either to conside
 </div>
 </div>
 <div class="section" id="experimental-publishing">
-<h2>3. <a class="reference internal" href="user-manual/experimental-publishing.html"><span class="doc">Experimental publishing</span></a><a class="headerlink" href="#experimental-publishing" title="Permalink to this headline">¶</a></h2>
+<span id="chapter-3"></span><h2>3. <a class="reference internal" href="user-manual/experimental-publishing.html"><span class="doc">Experimental publishing</span></a><a class="headerlink" href="#experimental-publishing" title="Permalink to this headline">¶</a></h2>
 <p>Experimental way of publishing is kind of innovative approach to Gisquick. New plugin <a class="reference internal" href="_images/logo2.png"><img alt="plugin2" src="_images/logo2.png" style="width: 2.5em;" /></a> is involved.
 In comparison to traditional approach, it allows user to easily edit published projects; every change made in
 project in QGIS can be reflected in Gisquick by activating plugin which enables user to compare local and cloud
@@ -222,19 +225,19 @@ project’s folders, layer by layer.</p>
 </div>
 </div>
 <div class="section" id="releasing-project">
-<h2>4. <a class="reference internal" href="user-manual/releasing-project.html"><span class="doc">Releasing project</span></a><a class="headerlink" href="#releasing-project" title="Permalink to this headline">¶</a></h2>
+<span id="chapter-4"></span><h2>4. <a class="reference internal" href="user-manual/releasing-project.html"><span class="doc">Releasing project</span></a><a class="headerlink" href="#releasing-project" title="Permalink to this headline">¶</a></h2>
 <p>Last few steps of publishing process are identical for both traditional and experimental way.</p>
 </div>
 <div class="section" id="user-interface">
-<h2>5. <a class="reference internal" href="user-manual/user-interface.html"><span class="doc">User interface</span></a><a class="headerlink" href="#user-interface" title="Permalink to this headline">¶</a></h2>
+<span id="chapter-5"></span><h2>5. <a class="reference internal" href="user-manual/user-interface.html"><span class="doc">User interface</span></a><a class="headerlink" href="#user-interface" title="Permalink to this headline">¶</a></h2>
 <p>Each component involved in UI is described in this chapter.</p>
 </div>
 <div class="section" id="sample-datasets">
-<h2>6. <a class="reference internal" href="user-manual/datasets.html"><span class="doc">Sample datasets</span></a><a class="headerlink" href="#sample-datasets" title="Permalink to this headline">¶</a></h2>
+<span id="chapter-6"></span><h2>6. <a class="reference internal" href="user-manual/datasets.html"><span class="doc">Sample datasets</span></a><a class="headerlink" href="#sample-datasets" title="Permalink to this headline">¶</a></h2>
 <p>Basic information about datasets which were used for documentation.</p>
 </div>
 <div class="section" id="other">
-<h2>7. <a class="reference internal" href="user-manual/other.html"><span class="doc">Other</span></a><a class="headerlink" href="#other" title="Permalink to this headline">¶</a></h2>
+<span id="chapter-7"></span><h2>7. <a class="reference internal" href="user-manual/other.html"><span class="doc">Other</span></a><a class="headerlink" href="#other" title="Permalink to this headline">¶</a></h2>
 <p>Interesting links to video tutorials, used technologies or source code.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -303,11 +306,19 @@ infrastructure.</p>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2016-2019, Gisquick team | Münzberger Josef, Usik Svetlana, Vaňková Zuzana
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -318,7 +329,6 @@ infrastructure.</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

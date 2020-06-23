@@ -20,12 +20,12 @@ name into search bar and install it.
 
 QGIS project dedicated for publishing is prepared in the standard
 way. Map layers can be combined from various data sources like flat
-files (Esri Shapefile, GML), file-based databases (SQLite,
+files (Esri Shapefile, OGC GML), file-based databases (OGC GeoPackage, SQLite,
 SpatiaLite), server-client databases (PostGIS) or OGC Web Services
 (WMS, WFS, WCS).
 
 Before publishing project using Gisquick plugin, the project must be
-saved in QGS format.
+saved in QGS format (QGZ format is currently not supported by the plugin).
 
 .. important:: |imp| When using flat files or file-based databases as
    data stores it is strictly recommended to save all the files (data and QGIS
@@ -135,7 +135,7 @@ Uploading project
 In the next step, user can upload a prepared project zip file created
 by Gisquick plugin as described in the section above. Login to your
 publication server account. In the user menu go to ``My profile``
-(see :ref:`User profile page <user-profile-page>`for details).
+(see :ref:`User profile page <user-profile-page>` for details).
 Go to ``Upload project``, enter the project zip file and upload the
 file using the ``Upload`` button.
 
@@ -153,7 +153,7 @@ published project.
 
 At this stage, it is possible to view the project in Gisquick by clicking
 the blue icon in the second column. However, it is recommended to finish
-the setup following the chapter number 5: Releasing project.
+the setup following the chapter :doc:`releasing-project`.
 
 .. thumbnail:: ../img/gisquick-published.png
 
