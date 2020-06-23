@@ -135,7 +135,7 @@ Uploading project
 In the next step, user can upload a prepared project zip file created
 by Gisquick plugin as described in the section above. Login to your
 publication server account. In the user menu go to ``My profile``
-(see :ref:`User profile page <user-profile-page>`for details).
+(see :ref:`User profile page <user-profile-page>` for details).
 Go to ``Upload project``, enter the project zip file and upload the
 file using the ``Upload`` button.
 
@@ -153,7 +153,7 @@ published project.
 
 At this stage, it is possible to view the project in Gisquick by clicking
 the blue icon in the second column. However, it is recommended to finish
-the setup following the chapter number 5: Releasing project.
+the setup following the chapter :doc:`releasing-project`.
 
 .. thumbnail:: ../img/gisquick-published.png
 
