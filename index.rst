@@ -11,24 +11,28 @@ Introduction
 
 Dear user, welcome to **Gisquick** documentation!
 Gisquick (http://gisquick.org) is an open-source geospatial data platform for publishing geospatial data in terms of rapid
-sharing `QGIS <http://qgis.org>`__. Explore more to see how easy yet powerful is working in Gisquick.
+sharing `QGIS <http://qgis.org>`__ projects. Explore more to see how easy yet powerful is working in Gisquick.
 
 There are few topics you might be interested in. Firstly, if you are about to **publish** your **QGIS**
-**project online**, see chapter **1** to **4**. Please notice that there are two alternative approaches of publishing
-so the choice must be made which one to follow (chapter **2** or **3**). Together with every released project,
+**project online**, see chapter :ref:`chapter-1` to :ref:`chapter-4`. Please notice that there are two alternative approaches of publishing
+so the choice must be made which one to follow (chapter :ref:`chapter-2` or :ref:`chapter-3`). Together with every released project,
 web map service (**WMS**) is created and can be subsequently modified.
 
-If you wonder **what does the output look like** or **which features are involved**, check chapter **5**.
-Browse chapter **6** for **metadata of example datasets** which were used for documentation. If you plan to
-**operate Gisquick publication server** on your own hardware, see chapter **7**.
+If you wonder **what does the output look like** or **which features are involved**, check chapter :ref:`chapter-5`.
+Browse chapter :ref:`chapter-6` for **metadata of example datasets** which were used for documentation. If you plan to
+**operate Gisquick publication server** on your own hardware, see chapter :ref:`chapter-7`.
 
 .. thumbnail:: ./img/example.svg
 
    Gisquick in action.
 
+.. _chapter-1:
+
 1. :doc:`Creating account <user-manual/creating-account>`
 --------------------------------------------------------
 It is necessary to create an account.
+
+.. _chapter-2:
 
 2. :doc:`Traditional publishing <user-manual/traditional-publishing>`
 --------------------------------------------------------------------
@@ -45,6 +49,8 @@ How to proceed in QGIS.
 """""""""""""""""""""""""""""""""""""""""""""""
 How to upload prepared project created in plugin to server.
 
+.. _chapter-3:
+
 3. :doc:`Experimental publishing <user-manual/experimental-publishing>`
 ----------------------------------------------------------------------
 Experimental way of publishing is kind of innovative approach to Gisquick. New plugin |plugin2| is involved.
@@ -60,17 +66,25 @@ How to proceed in QGIS.
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 How to connect to the server directly from QGIS and upload project.
 
+.. _chapter-4:
+
 4. :doc:`Releasing project <user-manual/releasing-project>`
 ----------------------------------------------------------
 Last few steps of publishing process are identical for both traditional and experimental way.
+
+.. _chapter-5:
 
 5. :doc:`User interface <user-manual/user-interface>`
 ----------------------------------------------------
 Each component involved in UI is described in this chapter.
 
+.. _chapter-6:
+
 6. :doc:`Sample datasets <user-manual/datasets>`
 -------------------------------------------
 Basic information about datasets which were used for documentation.
+
+.. _chapter-7:
 
 7. :doc:`Other <user-manual/other>`
 ----------------------------------
