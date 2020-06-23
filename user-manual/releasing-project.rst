@@ -13,16 +13,16 @@ experimental way, text below continues directly to chapter
 
 Section called ``SETTINGS`` is displayed. There are few
 options in the settings window. It is possible to load map canvas using
-map button (1). Use delete button (2) in case of removing whole project.
-For logging out find the top right button (3).
-Furthermore, it is possible to change the project title (4), set the
-rate of autenthication (5) or edit map extent setting (6). There are few
-possibilities how to edit map extent (7). First of all is to fill in the
+map button (``1``). Use delete button (``2``) in case of removing whole project.
+For logging out find the top right button (``3``).
+Furthermore, it is possible to change the project title (``4``), set the
+rate of autenthication (``5``) or edit map extent setting (``6``). There are few
+possibilities how to edit map extent (``7``). First of all is to fill in the
 desired coordinates into the frames. Secondly, map extent can be edited
 manually by drawing a delimiting rectangle area in map. Last option is to
 use extent of one imported layer or extent of all of them.
-Setting map scales is possible in the left box (8). Executed changes are
-reflected in map preview (9).
+Setting map scales is possible in the left box (``8``). Executed changes are
+reflected in map preview (``9``).
 
 .. thumbnail:: ../img/ui-project-setting.png
 
