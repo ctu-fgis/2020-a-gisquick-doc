@@ -66,6 +66,12 @@ License
 <https://github.com/gislab-npo/gisquick/blob/master/LICENSE>`__ version 2 or
 later
 
+-----------------------
+Authors (documentation)
+-----------------------
+Documentation was updated within the subject **Free software GIS** at **Czech Technical University**
+in Prague by Josef Münzberger, Svetlana Usik and Zuzana Vaňková.
+
 ..
    ------------------------------------------
    Alternative deploying method using Vagrant

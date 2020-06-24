@@ -40,7 +40,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Gisquick'
-copyright = u'2016-2019, Gisquick team | Münzberger Josef, Usik Svetlana, Vaňková Zuzana'
+copyright = u'2016-2020, Gisquick team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
